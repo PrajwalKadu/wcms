@@ -1,0 +1,21 @@
+# List demonstration
+fruits_list = ["apple", "orange", "banana", "grape"]
+print("Fruits List:", fruits_list)
+
+# Tuple demonstration
+colors_tuple = ("red", "green", "blue", "yellow")
+print("Colors Tuple:", colors_tuple)
+
+# Dictionary demonstration
+person_info = {"name": "John", "age": 25, "city": "New York"}
+print("Person Information Dictionary:", person_info)
+
+# Modify list, tuple, and dictionary
+fruits_list.append("mango")
+# colors_tuple[0] = "purple"  # This will raise an error as tuples are immutable
+person_info["occupation"] = "engineer"
+
+# Print modified versions
+print("Modified Fruits List:", fruits_list)
+print("Colors Tuple (unchanged):", colors_tuple)
+print("Modified Person Information Dictionary:", person_info)

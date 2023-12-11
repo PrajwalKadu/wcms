@@ -1,0 +1,20 @@
+def safe_divide(num1, num2):
+    try:
+        result = num1 / num2
+        return result
+    except ZeroDivisionError:
+        print("Error: Division by zero is not allowed.")
+        return None
+
+# Get user input for the numbers
+num1 = float(input("Enter the numerator: "))
+num2 = float(input("Enter the denominator: "))
+
+# Call the function and handle division by zero
+result = safe_divide(num1, num2)
+
+# Print the result if it's not None
+if result is not None:
+    print("Result of division:", result)
+
+)

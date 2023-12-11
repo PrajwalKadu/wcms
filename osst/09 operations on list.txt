@@ -1,0 +1,23 @@
+# Initialize a sample list
+my_list = [3, 1, 4, 1, 5, 9, 2, 6, 5, 3, 5]
+
+# Print the original list
+print("Original List:", my_list)
+
+# Sort the list
+sorted_list = sorted(my_list)
+print("Sorted List:", sorted_list)
+
+# Reverse the list
+reversed_list = list(reversed(my_list))
+print("Reversed List:", reversed_list)
+
+# Append an element to the list
+my_list.append(7)
+print("List after Appending 7:", my_list)
+
+# Slice the list
+start_index = 2
+end_index = 7
+sliced_list = my_list[start_index:end_index]
+print(f"Sliced List from index {start_index} to {end_index}:", sliced_list)
